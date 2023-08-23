@@ -35,7 +35,6 @@
     align-items: center;
     justify-content: center;
 
-
 }
 
 .rounded-images {
@@ -320,6 +319,12 @@ hr:after {
 /*BEGIN MEDIA QUERY*/
 
 @media screen and (max-width: 625px) {
+    #right-nav-about {
+        flex-direction:column-reverse;
+    }
+
+    
+    
     .left-nav {
         position: absolute;
         top: 10px;
@@ -333,6 +338,10 @@ hr:after {
     .left-nav-header {
 
         display: flex;
+    }
+
+    .right-nav-smaller-images{
+        flex-direction:column;
     }
 
     /* .top-nav-header {

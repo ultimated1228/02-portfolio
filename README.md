@@ -23,7 +23,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project was the seccond assignment within the UC-I full stack coding bootcamp class of Nov 2023.
+I was inspired by Lauren Wallers site here: https://www.lauren-waller.com/ 
+
+Too keep it on a single page I used 100% VH for the main content and then allowed users to click down to the content below the screen. I added transform elements to the links, and pop-ups to give users more information about various elements. 
+
+I tried to keep the overall design simple which is what I liked the most about Lauren's site.  I played with elements quite a bit to get them to do what I wanted, so there is certainly some redudancy in the code as a result. 
 
 
 
