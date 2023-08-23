@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Dyrynk Roman P22';
+    src: url('./DyrynkRomanP22.woff2') format('woff2'),
+        url('./DyrynkRomanP22.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

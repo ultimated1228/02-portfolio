@@ -1,0 +1,386 @@
+@font-face {
+    font-family: "Dyrynk Roman P22";
+    src:
+        url("./fonts/dyrynk/DyrynkRomanP22.woff2") format('woff2'),
+        url("./fonts/dyrynk/DyrynkRomanP22.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "montserrat";
+    src:
+        url("./fonts/font-montserrat/montserrat-variablefont_wght-webfont.woff") format('woff'),
+        url("./fonts/font-montserrat/montserrat-variablefont_wght-webfont.woff2") format('woff2');
+
+}
+
+
+
+.body {
+    font-family: "montserrat";
+    background-color: #ece7e1;
+    color: #1a1818;
+    display: flex;
+    align-items: center;
+
+}
+
+.body2 {
+    font-family: "montserrat";
+    background-color: #ece7e1;
+    color: #1a1818;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.rounded-images {
+    border-radius: 25px
+}
+
+.left-nav {
+
+    height: 100vh;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+
+
+.a-tags {
+    text-decoration: none;
+    color: #1a1818
+}
+
+.left-nav-item {
+    transform: rotate(-90deg);
+    margin-bottom: 100%;
+    margin-top: 50px;
+
+}
+
+.left-nav-item:hover {
+    font-style: italic;
+    text-decoration: line-through;
+    transition: all .5s ease-in-out;
+}
+
+.nav-line-position {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-line {
+    display: flex;
+    width: 1px;
+    height: 150px;
+    background: #1a1818;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+
+}
+
+.ultimate {
+    position: relative;
+
+}
+
+.ultimate img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+.ultimate:hover::after {
+    content: "Ultimate is a 7-on-7 team sport.  Steve was a world Champion in 2010. Click to watch a short video about the sport.";
+    height: 60px;
+    width: 400px;
+    position: absolute;
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    top: 2%;
+    left: 100%;
+    font-size: 16px;
+    padding-top: 6px;
+    text-align: justify;
+
+}
+
+.main-right-section {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#overview-header {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.overview-ul {
+    margin-left: 35px;
+    list-style-type: square;
+}
+
+.overview {
+
+    font-size: 18px;
+    padding: 20% 50px 0px;
+    max-width: 350px;
+}
+
+.right-nav-size {
+    min-width: 300;
+}
+
+.right-nav {
+    font-family: "Dyrynk Roman P22";
+    font-size: 15vw;
+    padding-left: 25px;
+    max-width: 700px;
+    text-align: justify;
+
+}
+
+.right-nav:hover {
+
+    font-style: italic;
+    text-decoration: line-through;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+}
+
+/* .right-nav:hover article {
+    display: block;
+}
+
+#right-nav-about {
+    a
+}
+
+#right-nav-about:hover p article {
+    display: block;
+} */
+
+.right-nav:hover::after {
+    content: "Click To Go Here";
+    display: block;
+    font-size: 16px;
+    position: relative;
+    bottom: 25px;
+
+}
+
+
+
+.right-nav:focus {
+    background-color: green;
+    font-style: italic;
+    text-decoration: line-through;
+    margin-left: 10px;
+    cursor: crosshair;
+
+
+}
+
+.right-nav-content {
+    font-size: 16px;
+    margin: 5px 0px 20px 30px;
+    /* display: none; */
+}
+
+/* I believe this section will serve as the .add IDs for the hidden content
+#right-nav-about-show {}
+
+
+#right-nav-work-show {}
+
+#right-nav-contact-show {}
+
+------ */
+#right-nav-about {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.right-nav-image-sizing {
+    width: 100%;
+    border: solid 5px black
+}
+
+.right-nav-header-image {
+    max-width: 700px;
+}
+
+.right-nav-smaller-images {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    max-width: 700px;
+}
+
+.right-nav-project-description {
+    height: 40px;
+    width: 200px;
+    position: relative;
+    bottom: 60px;
+    border-radius: 10px;
+    font-size: 14px;
+    padding-top: 4px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    line-height: 1.25em;
+
+}
+
+.ul-contact {
+    margin-left: 40px;
+    list-style-type: square;
+    line-height: 1.5em;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: #1a1818;
+    list-style-type: square;
+}
+
+.contact-links:hover {
+    font-style: italic;
+    text-decoration: line-through;
+    cursor: pointer;
+    margin-left:5px;
+    transition: all .5s ease-in-out;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    background-color: #ece7e1;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    background-color: #ece7e1;
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+#bottom-title-about {
+    font-family: "Dyrynk Roman P22";
+    font-size: 75px;
+    padding-left: 25px;
+    max-width: 700px;
+    text-align: justify;
+
+}
+
+#bottom-title-work {
+    font-family: "Dyrynk Roman P22";
+    font-size: 75px;
+    padding-left: 25px;
+    max-width: 700px;
+    text-align: justify;
+
+}
+
+#bottom-title-contact {
+    font-family: "Dyrynk Roman P22";
+    font-size: 75px;
+    padding-left: 25px;
+    max-width: 700px;
+    text-align: justify;
+
+}
+
+/*BEGIN MEDIA QUERY*/
+
+@media screen and (max-width: 625px) {
+    .left-nav {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100%;
+        height: 55px;
+        flex-direction: row;
+
+    }
+
+    .left-nav-header {
+
+        display: flex;
+    }
+
+    /* .top-nav-header {
+        display: flex;
+        gap: 10px;
+        margin-top:0;
+
+
+    } */
+
+    .nav-line {
+        transform: rotate(90deg);
+        position: absolute;
+        top: -127px;
+        left: 163px;
+        height: 325px;
+    }
+
+    .left-nav-header .left-nav-item:first-child {
+        margin-right: 10px;
+    }
+
+    .left-nav-item {
+        transform: rotate(0deg);
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+
+    .ultimate {
+        width: 25px;
+        height: 60px;
+        position: static;
+        margin-right: 55px;
+    }
+
+    .ultimate:hover::after {
+        content: "Ultimate is a 7-on-7 team sport.  Steve was a world Champion in 2010. Click to watch a short video about the sport.";
+        height: 50px;
+        width: 300px;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border: 1px solid;
+        top: 100px;
+        left: 200px;
+        font-size: 16px;
+        padding: 6px;
+        text-align: justify;
+
+    }
+}
