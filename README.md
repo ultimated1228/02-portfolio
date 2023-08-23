@@ -13,7 +13,7 @@
   <p align="center">
     project_description
     <br />
-    A basic decveloper portfolio made for the purposes of the UIC Bootcamp AUGUST 2023 class.
+    A basic decveloper portfolio made for the purposes of the UIC Bootcamp Nov 2023 class.
   </p>
 </div>
 
