@@ -147,7 +147,7 @@
 
 .right-nav {
     font-family: "Dyrynk Roman P22";
-    font-size: 15vw;
+    font-size: clamp(120px, 15vw, 250px);
     padding-left: 25px;
     max-width: 700px;
     text-align: justify;
@@ -198,7 +198,7 @@
 }
 
 .right-nav-content {
-    font-size: 16px;
+    font-size: 20px;
     margin: 5px 0px 20px 30px;
     /* display: none; */
 }
@@ -217,6 +217,7 @@
     gap: 20px;
     text-align: justify;
     max-width: 700px;
+    font-size: 20px;
 }
 
 .right-nav-image-sizing {
@@ -237,7 +238,7 @@
 
 .right-nav-project-description {
     height: 40px;
-    width: 200px;
+    width: 250px;
     position: relative;
     bottom: 60px;
     border-radius: 10px;
